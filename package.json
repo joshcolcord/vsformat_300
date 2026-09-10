@@ -1,0 +1,21 @@
+{
+  "name": "cs300-format-vscode",
+  "displayName": "CS300 Code Style (UW-Madison)",
+  "description": "Auto-applies CS300 formatting requirements to code space based on XML from Canvas and 100-char line length limit",
+  "version": "0.0.1",
+  "publisher": "joshc",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onLanguage:java"
+  ],
+  "main": "./extension.js",
+  "contributes": {},
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.9.2"
+  }
+}
